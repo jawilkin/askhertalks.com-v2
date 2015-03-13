@@ -1,0 +1,38 @@
+.jumbotron {
+	@media(min-width: @screen-sm) {
+		background-image: url(images/bannerimg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 100% 100%;
+		padding-bottom: 0;
+		padding-top: 0;
+		margin-bottom: 0;
+		height: 200px;
+	}
+	@media(min-width: @screen-md) {
+		height: 290px;
+	}
+	@media(min-width: 1300px) {
+		height: 300px;
+	}
+	background-color: @pantone208;
+}
+
+.jumbotron .container {
+	max-width: 1030px;
+	margin-top: 80px;
+}
+
+.header-hor {
+	display:none;
+	@media(min-width: 481px) and (max-width: @screen-sm) {
+		display: block;
+	}
+}
+
+.header-ver {
+	@media(max-width: @screen-xs) {
+		display: block;
+	}
+	display:none;
+}

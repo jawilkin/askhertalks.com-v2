@@ -1,0 +1,176 @@
+.navbar {
+	font-family: @Montserrat;
+	font-size: 1.1em;
+	li a {
+			color: #000;
+		}
+	@media (min-width: @screen-sm) {
+		background-color: @pantone208;
+		margin-bottom: -20px;
+		li a {
+			color: #fff;
+		}
+		li a:hover {
+			background-color: @pantone208;
+			color: #000;
+		}
+		.navbar-brand {
+			padding-left: 0;
+		}
+	}
+	@media (min-width: @screen-sm) and (max-width: @screen-md) {
+		font-size: 0.92em;
+		li a {
+			margin-left: -8px;
+		}
+		.navbar-brand {
+			width: 290px;
+		}
+	}
+	@media (min-width: 1300px) {
+		.navbar-brand {
+			width: 400px;
+		}
+		.navbar-brand-sm {
+			width: 250px;
+			background-color: @pantone208;
+			height: 200px;
+		}
+	}
+	background-color: #fff;
+	@media (max-width: @screen-md) {
+		border-bottom: 1px solid @pantone208;
+	}
+}
+
+.navbar-fixed-top {
+	height: 80px;
+	@media (min-width: @screen-sm) {
+		position: relative;
+		margin-bottom: -80px;
+	}
+}
+
+.navbar .container {
+	margin-top: 15px;
+}
+
+.navbar-collapse {
+	@media(max-width:768px) {
+		background-color: #eee;
+		background-image: url('images/diagonal-noise.png');
+	}
+}
+
+
+.navbar-brand,
+a.navbar-brand {
+	@media (min-width: @screen-sm) {
+		color: #fff;
+	}
+	color: #000;
+}
+
+#name {
+	@media (min-width: @screen-sm) {
+		display:none;
+	}
+}
+
+#navbar-logo {
+	display: none;
+	@media (min-width: @screen-sm) {
+		display: block;
+	}
+}
+
+//Bootstrap Stylez
+.navbar-brand {
+  @media (min-width: 768px) {
+	  display: inline-block;
+	  position: absolute;
+	  z-index: 1000;
+	  float: left;
+	  padding: 15px 15px;
+	  font-size: 18px;
+	  line-height: 20px;
+	  width: 380px;
+	  height: 310px;
+	  margin-top:-20px;
+	}
+}
+
+.navbar-brand > img {
+  display: block;
+  width: 90%;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+//Bootstrap Stylez
+
+
+.icon-bar {
+	background-color: #000;
+}
+
+
+
+/* Active Links and Menu Items*/ 
+
+.current-menu-item > a, .current-menu-parent > a, .current-menu-parent li a {
+	font-style: italic;
+}
+.current-menu-parent li a {
+	background: inherit;
+}
+.current-menu-parent .current-menu-item a {
+	font-weight: normal;
+	font-style: italic;
+}
+.current-menu-parent .current-menu-item a:hover {
+	text-decoration: none;
+}
+
+
+
+/* Drop-down menus */
+
+.sub-menu {
+	li {
+		margin-bottom: 10px;
+		list-style: none;
+		display: block;
+	}
+	li:last-child {
+		margin-bottom: 0;
+	}
+	a {
+		color: #000;
+		text-decoration: none;
+	}
+	@media (min-width:@screen-sm) {
+		background: #eee;
+		background-image: url('images/diagonal-noise.png');
+		display: none;
+		position: absolute;
+		background: #222;
+		padding: 10px 15px;
+		width: 130px;
+	}
+}
+
+@media (min-width:@screen-sm) {
+	li:hover .sub-menu {
+		display: block;
+		background-color: @pantone208;
+	}
+	.sub-menu a:hover {
+		color: #fff;
+	}
+}
