@@ -17,8 +17,26 @@
 	}
 }
 
+@media (min-width: @screen-sm) {
+	#page-text {
+		border-top: 1px solid @pantone208;
+		padding-top: 1%;
+	}
+}
+
 .page-main-content {
-	margin-top: 25px;
+	margin-top: 135px;
+	margin-bottom: 0px;
+	@media (min-width: @screen-sm) {
+		margin-top: 150px;
+	}
+	@media (min-width: @screen-md) {
+		margin-top: 90px;
+	}
+}
+
+#page-text {
+	padding-top: 2%;
 }
 
 .main-content {
@@ -36,7 +54,7 @@
 .date-feature {
 	border-top: 1px solid @pantone208;
 	border-bottom: 1px solid @pantone208;
-	text-align: center;
+	text-align: left;
 	padding-bottom: 20px;
 	h3 {
 		font-size: 2em;
@@ -46,9 +64,24 @@
 	}
 }
 
-.date-description {
+.date-img {
 	text-align: left;
-	margin-left: 25px;
+	margin-left: 80px;
+	display: none;
+	@media (min-width: @screen-md) {
+		display: block;
+	}
+}
+
+.date-details {
+	text-align: center;
+}
+
+.date-description {
+	margin-top: -20px;
+	@media (min-width: @screen-md) {
+		margin-top: 0;
+	}
 }
 
 
@@ -88,6 +121,12 @@
 		display: inline-block;
 		margin: auto;
 	}
+}
+
+.city-img {
+	border-radius: 200px;
+	box-shadow: 0 0 2px 1px #d4d4d4;
+	margin-top: -15px;
 }
 
 .well {

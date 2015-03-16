@@ -17,7 +17,7 @@
 
   <body <?php body_class(); ?>>
 
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand navbar-brand-sm" href="<?php bloginfo( 'url'); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/askher_header_test.png" class="img-responsive" id="navbar-logo">
+            <img src="<?php bloginfo('template_directory');?>/images/askher_header_pg.png" class="img-responsive" id="navbar-logo">
             <span id="name"><?php bloginfo( 'name'); ?></span>
           </a>
         </div>

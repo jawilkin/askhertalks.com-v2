@@ -4,9 +4,12 @@
     <footer class="footer">
       	<div class="container">
       		<div class="row" id="footer-content">
-      			<div class="col-sm-10" id="contact-info">
+            <div class="col-sm-2" id="slf-logo-container">
+              <img src="<?php bloginfo('stylesheet_directory');?>/images/slf_logo.png" class="img-responsive" id="slf-logo"/>
+            </div>
+      			<div class="col-sm-8" id="contact-info">
       				<h2>Contact</h2>
-      				<p>
+              <p>
       					<a href="http://www.stephenlewisfoundation.org/" target="_blank"><strong>Stephen Lewis Foundation<strong></a><br/>
       					260 Spadina Ave, Suite 501<br />
       					Toronto, ON&nbsp;&nbsp;M5T 2E4<br/>
