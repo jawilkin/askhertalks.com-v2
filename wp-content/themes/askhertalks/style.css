@@ -7042,6 +7042,16 @@ a.navbar-brand {
     margin-left: -55px;
   }
 }
+@media (min-width: 768px) {
+  .footer-sponsor {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-sponsor {
+    margin-left: 55px;
+  }
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 615px;
