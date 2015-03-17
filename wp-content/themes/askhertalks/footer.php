@@ -4,12 +4,10 @@
     <footer class="footer">
       	<div class="container">
       		<div class="row" id="footer-content">
-            <div class="col-sm-2" id="slf-logo-container">
-              <img src="<?php bloginfo('stylesheet_directory');?>/images/slf_logo.png" class="img-responsive" id="slf-logo"/>
-            </div>
-      			<div class="col-sm-8" id="contact-info">
+      			<div class="col-sm-4 col-xs-12" id="contact-info">
       				<h2>Contact</h2>
               <p>
+                <a href="http://www.stephenlewisfoundation.org/"><img src="<?php bloginfo('stylesheet_directory');?>/images/slf_logo_h.png" class="img-responsive" id="slf-logo"/></a>
       					<a href="http://www.stephenlewisfoundation.org/" target="_blank"><strong>Stephen Lewis Foundation<strong></a><br/>
       					260 Spadina Ave, Suite 501<br />
       					Toronto, ON&nbsp;&nbsp;M5T 2E4<br/>
@@ -21,19 +19,45 @@
       					<a href="https://www.facebook.com/stephenlewisfdn"><span class="fa fa-facebook-official fa-2x" style="color: #861f41;"></span></a>&nbsp;&nbsp;&nbsp;
       					<a href="https://www.twitter.com/stephenlewisfdn"><span class="fa fa-twitter fa-2x" style="color: #861f41;"></span></a>
       				</p>
-      				<p style="font-size: 0.875em;">&copy; Stephen Lewis Foundation <?php echo date('Y'); ?></p>
       			</div>
 
-      			<div class="col-sm-2 footer-sponsor">
+            <div class="col-sm-2 col-xs-12" id="presenting-sponsor">
+              <h2>Presenting Sponsor</h2>
+              <p><a href="https://www.cibc.com/ca/inside-cibc/community-and-sponsorship.html" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/cibc-logo.jpg" ></a></p>
+            </div>
+
+      			<div class="col-sm-2 col-xs-12" id="participant-partner">
       				<h2>Participant<br/>Partner</h2>
       				<p><a href="http://www.warchild.ca/" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/war-child-canada-logo.jpg" ></a></p>
       			</div>
-      			<!-- <div class="col-sm-2">
-      				<h2>Presenting Sponsor</h2>
-      				<p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/cibc-logo.jpg" ></a></p>
-      			</div> -->
 
+            <div class="col-sm-4 col-xs-12" id="lead-sponsors">
+              <h2>Lead Sponsors</h2>
+
+              <div class="row" id="lead-sponsors-row-1">
+                <div class="col-xs-6 id="via-rail"">
+                  <p><a href="http://www.viarail.ca/" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/via-rail-logo.png" ></a></p>
+                </div>
+                <div class="col-xs-6" id="diamante">
+                  <p><a href="http://www.diamantedevelopment.com/" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/diamante-logo.png"></a></p>
+                </div>
+              </div>
+              <div class="row" id="lead-sponsors-row-2">
+                <div class="col-xs-12" id="aeroplan">
+                  <p><a href="https://beyondmiles.aeroplan.com/" target="_blank"><img src="<?php bloginfo('stylesheet_directory');?>/images/aeroplan-logo.png"></a></p>
+                </div>
+              </div>
+
+            </div>
       		</div>
+
+          <div class="row" id="copyright">
+            <div class="container">
+              <p style="font-size: 0.7em;">&copy; Stephen Lewis Foundation <?php echo date('Y'); ?>
+              </p>
+            </div>
+          </div>
+
   		</div>
     </footer>
 

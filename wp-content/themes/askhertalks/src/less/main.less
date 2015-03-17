@@ -21,9 +21,12 @@ html {
 /*Typography*/
 p {
 	font-family: @DroidSerif;
-	font-size: 1.35em;
+	font-size: 1.2em;
 	line-height: 1.7em;
 	margin-bottom: 1em;
+	@media (min-width: @screen-md) {
+		font-size: 1.35em;
+	}
 }
 
 h1 {
@@ -34,7 +37,8 @@ h1 {
 	color: @pantone208;
 	text-align: center;
 	@media (max-width: 768px) {
-		font-size: 2.8em;
+		font-size: 2.6em;
+		margin-bottom: 0px;
 	}
 }
 
