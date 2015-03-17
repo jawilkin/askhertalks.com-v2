@@ -8,12 +8,12 @@
       				<h2>Contact</h2>
               <p>
                 <a href="http://www.stephenlewisfoundation.org/"><img src="<?php bloginfo('stylesheet_directory');?>/images/slf_logo_h.png" class="img-responsive" id="slf-logo"/></a>
-      					<a href="http://www.stephenlewisfoundation.org/" target="_blank"><strong>Stephen Lewis Foundation<strong></a><br/>
-      					260 Spadina Ave, Suite 501<br />
-      					Toronto, ON&nbsp;&nbsp;M5T 2E4<br/>
-      					416-533-9292 &#8226; Toll-free: 1-888-203-9990<br/>
+      					<a href="http://www.stephenlewisfoundation.org/" target="_blank"><strong>Stephen&nbsp;Lewis&nbsp;Foundation<strong></a><br/>
+      					260&nbsp;Spadina&nbsp;Ave,&nbsp;Suite&nbsp;501<br />
+      					Toronto,&nbsp;ON&nbsp;&nbsp;M5T 2E4<br/>
+      					Tel:&nbsp;416-533-9292 &#8226; <span class="nowrap">Toll-free:&nbsp;1-888-203-9990</span><br/>
       					<a href="mailto:info@stephenlewisfoundation.org">info@stephenlewisfoundation.org</a><br />
-      					Charitable Registration # 89635 4008 RR0001
+      					Charitable&nbsp;Registration&nbsp;#: 89635&nbsp;4008&nbsp;RR0001
       				</p>
       				<p>
       					<a href="https://www.facebook.com/stephenlewisfdn"><span class="fa fa-facebook-official fa-2x" style="color: #861f41;"></span></a>&nbsp;&nbsp;&nbsp;

@@ -6587,6 +6587,9 @@ h4 {
   line-height: 1.3em;
   margin-bottom: 15px;
 }
+.nowrap {
+  white-space: nowrap;
+}
 .navbar {
   font-family: 'Montserrat', "Calibri", "Futura", "Arial", serif;
   font-size: 1.1em;
