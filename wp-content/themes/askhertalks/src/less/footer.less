@@ -3,26 +3,14 @@
 	line-height: 1.2em;
 	text-transform: uppercase;
 	margin-bottom: 15px;
-	margin-top: 15px;
-}
-
-
-#contact-info {
-  text-align: center;
-  a {
-    color: #58595b;
-  }
-  @media (min-width: @screen-sm) {
-    border-right: 1px solid #ddd;
-  }
 }
 
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 875px;
+  margin-bottom: 910px;
   @media (min-width: @screen-sm) {
-  	margin-bottom: 300px;
+  	margin-bottom: 380px;
   }
 }
 
@@ -37,29 +25,44 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 875px;
+  height: 910px;
   background-color: #d2d2d2;
   background-image: url('images/diagonal-noise.png');
   @media (min-width: @screen-sm) {
-  	height: 300px;
+  	height: 380px;
    	#contact-info {
    		text-align: left;
    	}
-    .footer-sponsor {
-      text-align: right;
-    }
-  }
-  @media (max-width: 992px) {
-  	.footer-sponsor h2 {
-  		margin-top: 1.5em;
-  	}
   }
 }
 
 #footer-content {
 	text-align: center;
-	padding-top: 0.5em;
+  @media (min-width: @screen-sm) {
+    padding-top: 0.7em;
+  }
+
 }
+
+
+#contact-info {
+  text-align: center;
+  p {
+    line-height: 1.45em;
+  }
+  a {
+    color: #58595b;
+  }
+  @media (min-width: @screen-sm) {
+    border-right: 1px solid #ddd;
+    height: 302px;
+    padding-top: 0;
+    h2 {
+      margin-top: 15px;
+    }
+  }
+}
+
 
 
 #slf-logo {
@@ -75,12 +78,9 @@ body {
 
 
 #participant-partner {
-  border-right: 1px solid #ddd;
   @media (min-width: @screen-sm) {
-    height: 276px;
-  }
-  @media (min-width: @screen-md) {
-    height: 246px;
+    border-right: 1px solid #ddd;
+    height: 302px;
   }
 }
 
@@ -102,22 +102,14 @@ body {
 }
 
 #lead-sponsors {
-  #lead-sponsors-row-1 {
-    @media (min-width: @screen-sm) {
-      margin-top: 10%;
-    }
+  @media (min-width: @screen-sm) {
+    margin-right: 0;
   }
-  #lead-sponsors-row-2 {
+  #lead-sponsors-row-1,
+  #lead-sponsors-row-2,
+  #lead-sponsors-row-3 {
     @media (min-width: @screen-sm) {
-      margin-top: 15px;
-    }
-  }
-  #diamante {
-    img {
-      @media (min-width: @screen-sm) {
-        .pull-right;
-        margin-top: -8px;
-      }
+      margin-top: 6%;
     }
   }
 }
@@ -129,6 +121,9 @@ body {
   @media (min-width: @screen-sm) {
     border: none;
     text-align: left;
-    margin-top: -20px;
+    margin-top: -50px;
+  }
+  @media (min-width: @screen-md) {
+    margin-top: -60px;
   }
 }

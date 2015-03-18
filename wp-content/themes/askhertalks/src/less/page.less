@@ -37,13 +37,18 @@
 }
 
 .page-main-content {
-	margin-top: 135px;
-	margin-bottom: 0px;
-	@media (min-width: @screen-sm) {
-		margin-top: 150px;
-	}
+	margin-top: 130px;
+	margin-bottom: 0;
 	@media (min-width: @screen-md) {
-		margin-top: 90px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	.page-main-content {
+    	@media (min-width: @screen-md) {
+    		margin-top: 80px;
+		}
 	}
 }
 
@@ -93,7 +98,7 @@
 }
 
 .date-description {
-	margin-top: -20px;
+	margin-top: -30px;
 	@media (min-width: @screen-md) {
 		margin-top: 0;
 	}

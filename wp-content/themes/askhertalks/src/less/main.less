@@ -24,21 +24,25 @@ p {
 	font-size: 1.2em;
 	line-height: 1.7em;
 	margin-bottom: 1em;
-	@media (min-width: @screen-md) {
-		font-size: 1.35em;
+	@media (min-width: @screen-sm) {
+		font-size: 1.2em;
+		line-height: 1.8em;
 	}
 }
 
 h1 {
 	font-family: @DroidSerif;
 	font-style: italic;
-	font-size: 3.2em;
-	margin-bottom: 0.5em;
+	font-size: 2.5em;
+	margin-bottom: 0;
 	color: @pantone208;
 	text-align: center;
-	@media (max-width: 768px) {
-		font-size: 2.6em;
-		margin-bottom: 0px;
+	@media (min-width: @screen-sm) {
+		font-size: 2.8em;
+		margin-bottom: 0.5em;
+	}
+	@media (min-width: @screen-md) {
+		font-size: 3em;
 	}
 }
 

@@ -6553,23 +6553,29 @@ p {
   line-height: 1.7em;
   margin-bottom: 1em;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   p {
-    font-size: 1.35em;
+    font-size: 1.2em;
+    line-height: 1.8em;
   }
 }
 h1 {
   font-family: 'Droid Serif', "Cambria", "Lucida Bright", "Times New Roman", serif;
   font-style: italic;
-  font-size: 3.2em;
-  margin-bottom: 0.5em;
+  font-size: 2.5em;
+  margin-bottom: 0;
   color: #861f41;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   h1 {
-    font-size: 2.6em;
-    margin-bottom: 0px;
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3em;
   }
 }
 h2 {
@@ -6608,7 +6614,7 @@ h4 {
   }
   .navbar li a:hover {
     background-color: #861f41;
-    color: #000;
+    color: #390818;
   }
   .navbar .navbar-brand,
   .navbar .navbar-brand-sm {
@@ -6847,7 +6853,7 @@ a.navbar-brand {
 @media (min-width: 768px) {
   #front-page-sidebar {
     border-top: none;
-    border-left: 1px solid #861f41;
+    border-left: 1px solid #ccc;
     margin-top: 30px;
     padding-top: 5px;
     padding-right: 0;
@@ -6908,17 +6914,17 @@ a.navbar-brand {
   }
 }
 .page-main-content {
-  margin-top: 135px;
-  margin-bottom: 0px;
-}
-@media (min-width: 768px) {
-  .page-main-content {
-    margin-top: 150px;
-  }
+  margin-top: 130px;
+  margin-bottom: 0;
 }
 @media (min-width: 992px) {
   .page-main-content {
-    margin-top: 90px;
+    margin-top: 20px;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 992px) {
+  .page-main-content {
+    margin-top: 80px;
   }
 }
 .main-content {
@@ -6968,7 +6974,7 @@ a.navbar-brand {
   text-align: center;
 }
 .date-description {
-  margin-top: -20px;
+  margin-top: -30px;
 }
 @media (min-width: 992px) {
   .date-description {
@@ -7059,26 +7065,14 @@ a.navbar-brand {
   line-height: 1.2em;
   text-transform: uppercase;
   margin-bottom: 15px;
-  margin-top: 15px;
-}
-#contact-info {
-  text-align: center;
-}
-#contact-info a {
-  color: #58595b;
-}
-@media (min-width: 768px) {
-  #contact-info {
-    border-right: 1px solid #ddd;
-  }
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 875px;
+  margin-bottom: 910px;
 }
 @media (min-width: 768px) {
   body {
-    margin-bottom: 300px;
+    margin-bottom: 380px;
   }
 }
 .footer {
@@ -7086,7 +7080,7 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 875px;
+  height: 910px;
   background-color: #d2d2d2;
   background-image: url('images/diagonal-noise.png');
 }
@@ -7098,23 +7092,38 @@ body {
 }
 @media (min-width: 768px) {
   .footer {
-    height: 300px;
+    height: 380px;
   }
   .footer #contact-info {
     text-align: left;
   }
-  .footer .footer-sponsor {
-    text-align: right;
-  }
-}
-@media (max-width: 992px) {
-  .footer .footer-sponsor h2 {
-    margin-top: 1.5em;
-  }
 }
 #footer-content {
   text-align: center;
-  padding-top: 0.5em;
+}
+@media (min-width: 768px) {
+  #footer-content {
+    padding-top: 0.7em;
+  }
+}
+#contact-info {
+  text-align: center;
+}
+#contact-info p {
+  line-height: 1.45em;
+}
+#contact-info a {
+  color: #58595b;
+}
+@media (min-width: 768px) {
+  #contact-info {
+    border-right: 1px solid #ddd;
+    height: 302px;
+    padding-top: 0;
+  }
+  #contact-info h2 {
+    margin-top: 15px;
+  }
 }
 #slf-logo {
   padding: 0;
@@ -7128,17 +7137,10 @@ body {
     margin-left: 0;
   }
 }
-#participant-partner {
-  border-right: 1px solid #ddd;
-}
 @media (min-width: 768px) {
   #participant-partner {
-    height: 276px;
-  }
-}
-@media (min-width: 992px) {
-  #participant-partner {
-    height: 246px;
+    border-right: 1px solid #ddd;
+    height: 302px;
   }
 }
 #presenting-sponsor,
@@ -7167,19 +7169,15 @@ body {
   }
 }
 @media (min-width: 768px) {
-  #lead-sponsors #lead-sponsors-row-1 {
-    margin-top: 10%;
+  #lead-sponsors {
+    margin-right: 0;
   }
 }
 @media (min-width: 768px) {
-  #lead-sponsors #lead-sponsors-row-2 {
-    margin-top: 15px;
-  }
-}
-@media (min-width: 768px) {
-  #lead-sponsors #diamante img {
-    float: right !important;
-    margin-top: -8px;
+  #lead-sponsors #lead-sponsors-row-1,
+  #lead-sponsors #lead-sponsors-row-2,
+  #lead-sponsors #lead-sponsors-row-3 {
+    margin-top: 6%;
   }
 }
 #copyright {
@@ -7191,7 +7189,12 @@ body {
   #copyright {
     border: none;
     text-align: left;
-    margin-top: -20px;
+    margin-top: -50px;
+  }
+}
+@media (min-width: 992px) {
+  #copyright {
+    margin-top: -60px;
   }
 }
 .btn-default,
