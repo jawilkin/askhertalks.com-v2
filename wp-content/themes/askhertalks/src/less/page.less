@@ -37,17 +37,17 @@
 }
 
 .page-main-content {
-	margin-top: 130px;
+	margin-top: 160px;
 	margin-bottom: 0;
 	@media (min-width: @screen-md) {
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 	.page-main-content {
     	@media (min-width: @screen-md) {
-    		margin-top: 80px;
+    		margin-top: 110px;
 		}
 	}
 }
@@ -137,6 +137,8 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 0 0 2px 1px #d4d4d4;
+	margin-top: -15px;
 	@media (min-width:768px) {
 		display: inline-block;
 		margin: auto;
@@ -156,9 +158,8 @@
 	padding: 0;
 }
 
-.about-sidebar {
+.sidebar {
 	border-left: 1px solid #ddd;
-	margin-top: -20px;
 	img {
 		margin-left: auto;
 		margin-right: auto;
@@ -177,4 +178,8 @@
 	@media (min-width: @screen-md) {
 		padding-left: 30px;
 	}
+}
+
+.about-sidebar {
+	margin-top: -20px;
 }

@@ -164,7 +164,14 @@ a.navbar-brand {
 		position: absolute;
 		background: #222;
 		padding: 10px 15px;
-		width: 130px;
+		width: 80px;
+		margin-left: 10px;
+		padding-left: 17px;
+	}
+	@media (min-width: @screen-md) {
+		padding-left: 15px;
+		margin-left: 20px;
+		width: 108px;
 	}
 }
 
@@ -175,5 +182,18 @@ a.navbar-brand {
 	}
 	.sub-menu a:hover {
 		color: #fff;
+	}
+}
+
+
+#menu-item-25 a:hover{
+	cursor: context-menu;
+}
+
+#menu-item-23,
+#menu-item-38,
+#menu-item-37 {
+	a:hover {
+		cursor: pointer;
 	}
 }
