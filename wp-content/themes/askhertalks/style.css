@@ -6801,7 +6801,7 @@ a.navbar-brand {
 }
 @media (min-width: 768px) {
   .jumbotron {
-    background-image: url(images/bannerimg.jpg);
+    background-image: url(images/bannerimg_v2_c.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
@@ -6811,9 +6811,15 @@ a.navbar-brand {
     height: 200px;
   }
 }
+@media (min-width: 768px) {
+  .jumbotron {
+    background-position: 50% 100%;
+  }
+}
 @media (min-width: 992px) {
   .jumbotron {
     height: 290px;
+    background-position: 45% 100%;
   }
 }
 @media (min-width: 1300px) {
