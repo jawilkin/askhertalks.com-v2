@@ -8,6 +8,12 @@
 
         <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_sm.png" class="img-responsive header-ver">
 
+        <div class="col-sm-7 col-sm-offset-5" id="tagline">
+
+          <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_tagline_reverse.png" class="img-responsive">
+
+        </div>
+
       </div>
 
     </div>
