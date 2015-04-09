@@ -10,7 +10,7 @@
 
         <div class="col-sm-7 col-sm-offset-5" id="tagline">
 
-          <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_tagline_reverse.png" class="img-responsive">
+          <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_tagline_reverse.png" class="img-responsive hidden-xs">
 
         </div>
 
@@ -22,6 +22,8 @@
     <div class="container main-content">
 
         <div class="row">
+
+          <hr class="hidden-xs">
 
           <!--Page Content-->
           <div class="col-sm-9" id="front-page-content"> 

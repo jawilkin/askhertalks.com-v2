@@ -1,12 +1,12 @@
 .navbar {
 	font-family: @Montserrat;
 	font-size: 1.1em;
-	box-shadow: 0 0 2px 1px #282828;
 	li a {
 			color: #000;
 		}
 	@media (min-width: @screen-sm) {
 		background-color: @pantone208;
+		box-shadow: 0 0 2px 1px #282828;
 		margin-bottom: -20px;
 		li a {
 			color: #fff;
@@ -17,6 +17,9 @@
 		}
 		.navbar-brand, .navbar-brand-sm {
 			padding-left: 0;
+		}
+		#navbar-logo {
+			width: 280px;
 		}
 	}
 	@media (min-width: @screen-sm) and (max-width: @screen-md) {
@@ -30,6 +33,9 @@
 	}
 	@media (min-width: @screen-md){
 		.navbar-brand-sm {
+			width: 400px;
+		}
+		#navbar-logo {
 			width: 400px;
 		}
 	}
