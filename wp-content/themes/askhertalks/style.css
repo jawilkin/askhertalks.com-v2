@@ -6805,15 +6805,17 @@ a.navbar-brand {
 }
 @media (min-width: 768px) {
   .jumbotron {
-    background-repeat: repeat;
-    padding-bottom: 0;
+    background-size: cover;
+    padding-bottom: 1.5%;
     padding-top: 0;
     margin-bottom: 0;
+    box-shadow: 0 0 3px 1px #939598;
   }
 }
 @media (min-width: 768px) {
   .jumbotron {
-    background-color: #fff;
+    background-color: #861f41;
+    background-image: url('images/bg.png');
   }
 }
 @media (min-width: 992px) {
@@ -6869,6 +6871,7 @@ a.navbar-brand {
   font-size: 1.6em;
   text-align: center;
   line-height: 0.3em;
+  color: #861f41;
 }
 #front-page-sidebar h3 {
   font-size: 1.2em;
@@ -6887,7 +6890,7 @@ a.navbar-brand {
 @media (min-width: 768px) {
   #front-page-sidebar {
     border-top: none;
-    border-left: 1px solid rgba(134, 31, 65, 0.3);
+    border-left: 1px solid rgba(17, 98, 107, 0.25);
     margin-top: 30px;
     padding-top: 5px;
     padding-right: 0;
@@ -6908,7 +6911,7 @@ a.navbar-brand {
 }
 .main-content {
   padding-top: 0px;
-  margin-top: 0px !important;
+  margin-top: 15px;
 }
 hr {
   border: 0;
