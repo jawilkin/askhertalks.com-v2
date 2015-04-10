@@ -15,8 +15,8 @@
                 <a href="mailto:askhertalks@stephenlewisfoundation.org"><span class="fa fa-envelope fa-lg hidden-sm">&nbsp;</span>askhertalks@stephenlewisfoundation.org</a>
       				</p>
       				<p id="social-media">
-      					<a href="https://www.facebook.com/stephenlewisfdn"><span class="fa fa-facebook-official fa-2x" style="color: #861f41;"></span></a>&nbsp;&nbsp;&nbsp;
-      					<a href="https://www.twitter.com/stephenlewisfdn"><span class="fa fa-twitter fa-2x" style="color: #861f41;"></span></a>
+      					<a href="https://www.facebook.com/stephenlewisfdn"><span class="fa fa-facebook-official fa-2x" style="color: #fff;"></span></a>&nbsp;&nbsp;&nbsp;
+      					<a href="https://www.twitter.com/stephenlewisfdn"><span class="fa fa-twitter fa-2x" style="color: #fff;"></span></a>
       				</p>
       			</div>
 
