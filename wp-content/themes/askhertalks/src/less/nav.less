@@ -6,6 +6,9 @@
 	.navbar-brand {
 		color: #fff;
 	}
+	li {
+		text-transform:uppercase;
+	}
 	li a {
 			color: #000;
 		}
@@ -19,7 +22,7 @@
 		}
 		li a:hover {
 			background-color: @pantone208;
-			color: #390818;
+			border-bottom: 2px solid #fff;
 		}
 		.navbar-brand, .navbar-brand-sm {
 			padding-left: 0;
@@ -30,15 +33,18 @@
 		}
 	}
 	@media (min-width: @screen-sm) and (max-width: @screen-md) {
-		font-size: 0.85em;
+		font-size: 1.1em;
 		li a {
-			margin-left: -5px;
+			margin-left: 15px;
 		}
 		.navbar-brand-sm {
 			width: 220px;
 		}
 	}
 	@media (min-width: @screen-md){
+		li {
+			margin-left: 50px;
+		}
 		#navbar-logo {
 			width: 400px;
 		}
@@ -140,7 +146,10 @@ a.navbar-brand {
 /* Active Links and Menu Items*/ 
 
 .current-menu-item > a, .current-menu-parent > a {
-	font-style: italic;
+	@media (min-width: screen-md) {
+		border-bottom: 2px solid #fff;
+	}
+	font-style: bold;
 }
 .current-menu-parent li a {
 	background: inherit;
