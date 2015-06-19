@@ -1,6 +1,10 @@
 .page-header {
 	border: none;
 	margin-bottom: -25px;
+	margin-top: -20px;
+	@media (min-width: @screen-md) {
+		margin-top: 30px;
+	}
 }
 
 .page-container {
@@ -23,8 +27,8 @@
 		margin-top: 0.6em;
 		margin-bottom: -0.5em;
 		text-align: center;
-		@media (max-width: 768px) {
-			margin-bottom: -1em;
+		@media (max-width: @screen-sm) {
+			margin-bottom: -0.25em;
 		}
 	}
 }
@@ -89,7 +93,10 @@
 	padding-top: 10px;
 	display: none;
 	@media (min-width: @screen-md) {
-		display: block;
+		display: flex;
+		.city-img {
+			margin: auto;
+		}
 	}
 }
 
@@ -149,7 +156,6 @@
 .city-img {
 	border-radius: 200px;
 	box-shadow: 0 0 2px 1px #d4d4d4;
-	margin-top: -15px;
 }
 
 .well {

@@ -1,12 +1,17 @@
 .navbar {
 	font-family: @Montserrat;
+	background-color: @pantone208;
+	background-image: url('images/bg.png');
 	font-size: 1.1em;
+	.navbar-brand {
+		color: #fff;
+	}
 	li a {
 			color: #000;
 		}
 	@media (min-width: @screen-sm) {
 		background-color: @pantone208;
-		//background-image: url('images/bg.png');
+		background-image: none;
 		box-shadow: 0 0 2px 1px #282828;
 		margin-bottom: -20px;
 		li a {
@@ -20,24 +25,28 @@
 			padding-left: 0;
 		}
 		#navbar-logo {
+			padding-top: 5px;
 			width: 280px;
 		}
 	}
 	@media (min-width: @screen-sm) and (max-width: @screen-md) {
-		font-size: 0.92em;
+		font-size: 0.85em;
 		li a {
-			margin-left: -8px;
+			margin-left: -5px;
 		}
 		.navbar-brand-sm {
-			width: 270px;
+			width: 220px;
 		}
 	}
 	@media (min-width: @screen-md){
-		.navbar-brand-sm {
-			width: 400px;
-		}
 		#navbar-logo {
 			width: 400px;
+		}
+		#navbar-logo-sm {
+			width: 240px;
+		}
+		.navbar-brand-sm {
+			width: 280px;
 		}
 	}
 	@media (min-width: 1300px) {
@@ -48,7 +57,6 @@
 			width:  270px;
 		}
 	}
-	background-color: #fff;
 	@media (max-width: @screen-md) {
 		border-bottom: 1px solid @pantone208;
 	}
@@ -100,8 +108,8 @@ a.navbar-brand {
 
 
 .navbar-brand {
-  @media (min-width: 768px) {
-	  width: 400px;
+  @media (min-width: @screen-sm) {
+	  width: 280px;
 	  margin-top:-20px;
 	  display: inline-block;
 	  position: absolute;
@@ -111,6 +119,9 @@ a.navbar-brand {
 	  font-size: 18px;
 	  line-height: 20px;
 	}
+  @media (min-width: @screen-md) {
+  	width: 390px;
+  }
 }
 
 .navbar-brand > img {
@@ -121,7 +132,7 @@ a.navbar-brand {
 
 
 .icon-bar {
-	background-color: #000;
+	background-color: #fff;
 }
 
 
@@ -169,13 +180,13 @@ a.navbar-brand {
 		position: absolute;
 		background: #222;
 		padding: 10px 15px;
-		width: 80px;
+		width: 100px;
 		margin-left: 10px;
 		padding-left: 17px;
 	}
 	@media (min-width: @screen-md) {
 		padding-left: 15px;
-		margin-left: 20px;
+		margin-left: 15px;
 		width: 108px;
 	}
 }

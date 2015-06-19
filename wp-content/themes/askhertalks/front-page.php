@@ -8,9 +8,9 @@
 
         <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_sm.png" class="img-responsive header-ver">
 
-        <div class="col-sm-7 col-sm-offset-5" id="tagline">
+        <div class="col-sm-7 col-sm-offset-5 hidden-xs" id="tagline">
 
-          <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_tagline.png" class="img-responsive hidden-xs">
+          <img src="<?php bloginfo('stylesheet_directory');?>/images/askher_header_tagline.png" class="img-responsive">
 
         </div>
 

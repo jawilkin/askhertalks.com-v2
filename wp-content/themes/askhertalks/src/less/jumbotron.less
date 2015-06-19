@@ -1,31 +1,26 @@
 .jumbotron {
+	background-color: @pantone208;
+	background-image: url('images/bg_jumbotron_sm.jpg');
+	background-size: cover;
+	box-shadow: 0 0 3px 1px #939598;
 	@media(min-width: @screen-sm) {
-		//background-image: url('images/bg_swirl_pattern.png');
-		background-size: cover;
-		padding-bottom: 1.5%;
+		padding-bottom: 0;
 		padding-top: 0;
 		margin-bottom: 0;
-		box-shadow: 0 0 3px 1px #939598;
-		//height: 200px;
+
 	}
-	@media(min-width: @screen-sm) {
-		//background-position: 50% 100%;
-		background-color: @secondary;
-		background-image: url('images/bg_jumbotron.png');
+	@media(min-width: 481px) {
+		background-image: url('images/bg_jumbotron.jpg');
 	}
-	@media(min-width: @screen-md) {
-		//height: 290px;
-		background-position: 45% 100%;
+	@media (min-width: @screen-sm) {
+		padding-bottom: 1.5%;
 	}
-	@media(min-width: 1300px) {
-		//height: 260px;
-	}
-	background-color: @pantone208;
 }
 
 .jumbotron .container {
 	max-width: 1030px;
 	margin-top: 80px;
+	padding: 0;
 }
 
 .header-hor {
@@ -43,10 +38,13 @@
 }
 
 #tagline {
-	margin-top: 4%;
+	margin-top: 3%;
 	img {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	@media (min-width: @screen-md) {
+		margin-top: 4%;
 	}
 }

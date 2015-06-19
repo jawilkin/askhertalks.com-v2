@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand navbar-brand-sm" href="<?php bloginfo( 'url'); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/askher_header_pg_texture.png" class="img-responsive" id="navbar-logo">
+            <img src="<?php bloginfo('template_directory');?>/images/askher_header_pg.png" class="img-responsive hidden-xs" id="navbar-logo-sm">
             <span id="name"><?php bloginfo( 'name'); ?></span>
           </a>
         </div>
