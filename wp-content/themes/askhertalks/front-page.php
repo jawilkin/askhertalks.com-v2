@@ -38,21 +38,21 @@
           <!--Sidebar Widgets-->
           <div class="col-sm-3" id="front-page-sidebar">
 
-            <div class="row city-widget">
-              <div class="city-widget-inner">
-                <?php if ( dynamic_sidebar( 'front-left' ) ); ?>
+            <div class="row front-widget">
+              <div class="front-widget-inner">
+                <?php if ( dynamic_sidebar( 'front-one' ) ); ?>
               </div>
             </div>
 
-            <div class="row city-widget">
-              <div class="city-widget-inner">
-                <?php if ( dynamic_sidebar( 'front-center' ) ); ?>
+            <div class="row front-widget">
+              <div class="front-widget-inner">
+                <?php if ( dynamic_sidebar( 'front-two' ) ); ?>
               </div>
             </div>
 
-            <div class="row city-widget">
-              <div class="city-widget-inner">
-                <?php if ( dynamic_sidebar( 'front-right' ) ); ?>
+            <div class="row front-widget">
+              <div class="front-widget-inner">
+                <?php if ( dynamic_sidebar( 'front-three' ) ); ?>
               </div>
             </div>
 

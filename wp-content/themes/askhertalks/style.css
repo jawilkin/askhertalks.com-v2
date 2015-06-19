@@ -6875,29 +6875,40 @@ a.navbar-brand {
   margin: 0;
   padding: 0px;
 }
-.city-widget {
+.front-widget {
   padding: 0;
   margin: 0;
 }
-.city-widget-inner {
+.front-widget-inner {
   padding: 0;
   width: 100%;
 }
-.city-widget-inner hr {
+@media (min-width: 992px) {
+  .front-widget-inner {
+    padding-left: 10px;
+  }
+}
+.front-widget-inner hr {
   width: 80%;
 }
 #front-page-sidebar h2 {
   margin-top: 5px;
+  margin-bottom: 30px;
   font-size: 1.6em;
   text-align: center;
   line-height: 0.3em;
   color: #861f41;
 }
+@media (min-width: 992px) {
+  #front-page-sidebar h2 {
+    text-align: left;
+  }
+}
 #front-page-sidebar h3 {
   font-size: 1.2em;
 }
 @media (max-width: 768px) {
-  .city-widget {
+  .front-widget {
     margin-bottom: 10px;
   }
 }

@@ -3,13 +3,16 @@
 	padding: 0px;
 }
 
-.city-widget {
+.front-widget {
 	padding: 0;
 	margin: 0;
 }
 
-.city-widget-inner {
+.front-widget-inner {
 	padding: 0;
+	@media (min-width: @screen-md) {
+		padding-left: 10px;
+	}
 	width: 100%;
 	hr {
 		width: 80%;
@@ -18,8 +21,12 @@
 
 #front-page-sidebar h2 {
 	margin-top: 5px;
+	margin-bottom: 30px;
 	font-size: 1.6em;
 	text-align: center;
+	@media (min-width: @screen-md) {
+		text-align: left;
+	}
 	line-height: 0.3em;
 	color: @secondary;
 }
