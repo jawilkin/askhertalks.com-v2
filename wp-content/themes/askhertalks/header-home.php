@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<?php bloginfo( 'url'); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/askher_header_no_tagline.png" class="img-responsive" id="navbar-logo">
+            <img src="<?php bloginfo('template_directory');?>/images/askher_header_no_tagline.png" class="img-responsive" id="navbar-logo" alt="The Ask Her Talks">
             <span id="name"><?php bloginfo( 'name'); ?></span>
           </a>
         </div>
