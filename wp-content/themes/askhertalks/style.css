@@ -7256,7 +7256,7 @@ a.navbar-brand {
 @media (min-width: 768px) {
   .city-row {
     margin-top: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .city-row h2 {
     margin-top: 15px;
@@ -7284,6 +7284,36 @@ a.navbar-brand {
 }
 .img-border {
   box-shadow: 0 0 0 2px #861f41;
+}
+.media {
+  border-bottom: 1px solid #ddd;
+  font-family: 'Droid Serif', "Cambria", "Lucida Bright", "Times New Roman", serif;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+.media .media-img img {
+  border-radius: 70px;
+  box-shadow: 0 0 1px 0px #bcbec0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .media .media-img img {
+    display: none !important;
+  }
+}
+.media .media-item {
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+  .media {
+    margin-right: 10px;
+  }
+}
+.media-last {
+  border-bottom: none;
 }
 .footer h2 {
   font-size: 1.3em;
@@ -7493,10 +7523,33 @@ body {
 /*Srizon Responsive YouTube Album Plugin Styles*/
 .titlebelowthumb {
   font-family: 'Montserrat', "Calibri", "Futura", "Arial", serif;
+  font-size: 1.1em;
 }
 .srizon-yt-container {
-  margin-bottom: -100px;
+  margin-bottom: 0px;
 }
 .elastislide-wrapper nav span {
   background-color: #861f41;
+}
+/*Make videos embedded with object tag resposnive*/
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  margin-bottom: 20px;
+  height: 0;
+}
+.videoWrapper object,
+.videoWrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-caption {
+  font-size: 1.35em;
+  line-height: 1em;
+  margin-bottom: 5%;
 }

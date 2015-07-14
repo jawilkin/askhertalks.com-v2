@@ -2,12 +2,38 @@
 
 .titlebelowthumb {
 	font-family: @Montserrat;
+	font-size: 1.1em;
 }
 
 .srizon-yt-container {
-	margin-bottom: -100px;
+	margin-bottom: 0px;
 }
 
 .elastislide-wrapper nav span {
 	background-color: @pantone208;
+}
+
+
+/*Make videos embedded with object tag resposnive*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	margin-bottom: 20px;
+	height: 0;
+}
+.videoWrapper object,
+.videoWrapper embed,  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-caption {
+	font-size: 1.35em;
+	line-height: 1em;
+	margin-bottom: 5%;
 }
