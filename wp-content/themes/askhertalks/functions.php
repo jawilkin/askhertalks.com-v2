@@ -33,6 +33,13 @@
 	add_theme_support( 'menus' );
 	add_theme_support( 'post-thumbnails' );
 
+	//WordPress automatically generates the title tag for each page and post
+	function spi_setup() {
+ 		add_theme_support( 'title-tag' );
+	}
+	add_action( 'after_setup_theme', 'spi_setup' );
+
+
 	function register_theme_menus() {
 		register_nav_menus(
 			array(
